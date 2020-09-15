@@ -11,3 +11,23 @@
   right: 32px;
 
 }
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+a.active{
+  color:blue;
+}
+
+.logo {
+  cursor: pointer;
+
+}
+
+
+.logo:focus {
+  outline: none;
+}
+
